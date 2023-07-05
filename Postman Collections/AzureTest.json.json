@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "2bdfc2f6-db30-468f-ae82-0477440a26af",
+		"name": "AzureTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Exam indexing (Demo Assessapp) Copy",
+			"_postman_id": "9c1a7340-b593-44e2-810e-4f63fde3182c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "{{token}}"
+					}
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "webReferer",
+						"value": "{{referer}}",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "{{referer}}",
+						"type": "text"
+					}
+				],
+				"url": "{{url}}/exam-api/v1.2/exam/bulk-indexing"
+			},
+			"response": []
+		}
+	]
+}
