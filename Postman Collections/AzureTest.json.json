@@ -36,7 +36,7 @@
 							"\r",
 							"tests[\"Status code is 200\"] = responseCode.code === 200;\r",
 							"\r",
-							"tests[\"Successful POST request\"] = responseCode.code === 200 || responseCode.code === 200;\r",
+							"tests[\"Successful GET request\"] = responseCode.code === 200 || responseCode.code === 200;\r",
 							"\r",
 							"tests[\"Response is \" + responseBody] = responseBody === responseBody;"
 						],
