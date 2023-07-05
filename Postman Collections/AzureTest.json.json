@@ -52,7 +52,7 @@
 				"auth": {
 					"type": "bearer",
 					"bearer": {
-						"token": "{{token}}"
+						"token": "oM4awyoeGAFZ7e9w0lFTD6AbPRLn6L7S"
 					}
 				},
 				"method": "GET",
