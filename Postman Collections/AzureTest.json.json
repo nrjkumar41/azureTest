@@ -7,6 +7,43 @@
 	"item": [
 		{
 			"name": "Exam indexing (Demo Assessapp) Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bbaea33a-8fa8-48c0-b6f0-4a23c80dc11e",
+						"exec": [
+							"//To print Error\r",
+							"if(responseCode.code !== 200){\r",
+							"var jsonData = JSON.parse(responseBody);\r",
+							"\r",
+							"tests[\"API_Name_message:\"+responseBody] = jsonData.status == \"0\";//1\r",
+							"\r",
+							"console.log(\"message:\"+responseBody);//2\r",
+							"}\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"tests[\"Content-Type is present \" + postman.getResponseHeader(\"Content-Type\")] = postman.getResponseHeader(\"Content-Type\");\r",
+							"if (postman.getResponseHeader(\"Content-Type\") === \"application/json\") {\r",
+							"    console.log;\r",
+							"\r",
+							"    tests[\"Content-Type is present\"] = postman.getResponseHeader(\"Content-Type\");\r",
+							"}\r",
+							"\r",
+							"tests[\"Response time is less than 1500ms\"] = responseTime < 15000;\r",
+							"\r",
+							"tests[\"Status code is 200\"] = responseCode.code === 200;\r",
+							"\r",
+							"tests[\"Successful POST request\"] = responseCode.code === 200 || responseCode.code === 200;\r",
+							"\r",
+							"tests[\"Response is \" + responseBody] = responseBody === responseBody;"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "9c1a7340-b593-44e2-810e-4f63fde3182c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
