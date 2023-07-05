@@ -13,7 +13,7 @@
 					"script": {
 						"id": "bbaea33a-8fa8-48c0-b6f0-4a23c80dc11e",
 						"exec": [
-							"//To print Error\r",
+							"/*To print Error\r",
 							"if(responseCode.code !== 200){\r",
 							"var jsonData = JSON.parse(responseBody);\r",
 							"\r",
@@ -21,7 +21,7 @@
 							"\r",
 							"console.log(\"message:\"+responseBody);//2\r",
 							"}\r",
-							"\r",
+							"*/\r",
 							"\r",
 							"\r",
 							"\r",
