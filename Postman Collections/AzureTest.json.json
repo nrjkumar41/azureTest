@@ -59,12 +59,12 @@
 				"header": [
 					{
 						"key": "webReferer",
-						"value": "{{referer}}",
+						"value": "https://apidev.qmsapp.eluminaelearning.com.au/exam-api/v1.2/exam/bulk-indexing",
 						"type": "text"
 					},
 					{
 						"key": "Referer",
-						"value": "{{referer}}",
+						"value": "https://apidev.qmsapp.eluminaelearning.com.au/exam-api/v1.2/exam/bulk-indexing",
 						"type": "text"
 					}
 				],
