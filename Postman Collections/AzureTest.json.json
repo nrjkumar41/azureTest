@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "Exam indexing (Demo Assessapp) Copy",
-			"_postman_id": "9c1a7340-b593-44e2-810e-4f63fde3182c",
+			"id": "9c1a7340-b593-44e2-810e-4f63fde3182c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -31,7 +31,7 @@
 						"type": "text"
 					}
 				],
-				"url": "{{url}}/exam-api/v1.2/exam/bulk-indexing"
+				"url": "https://apidev.qmsapp.eluminaelearning.com.au/exam-api/v1.2/exam/bulk-indexing"
 			},
 			"response": []
 		}
