@@ -50,10 +50,7 @@
 			},
 			"request": {
 				"auth": {
-					"type": "bearer",
-					"bearer": {
-						"token": "oM4awyoeGAFZ7e9w0lFTD6AbPRLn6L7S"
-					}
+					"type": "noauth"
 				},
 				"method": "GET",
 				"header": [
@@ -68,7 +65,7 @@
 						"type": "text"
 					}
 				],
-				"url": "https://apidev.qmsapp.eluminaelearning.com.au/exam-api/v1.2/exam/bulk-indexing"
+				"url": "https://gorest.co.in/public/v2/users"
 			},
 			"response": []
 		}
